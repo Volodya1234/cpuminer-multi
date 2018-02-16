@@ -35,8 +35,7 @@ Build
 #### Basic *nix build instructions:
  * ./autogen.sh	# only needed if building from git repo
  * Optimal GCC flags are built in - you only need to use -march=native if you want it
- * CFLAGS="*-march=native*" ./configure
-   * # Use -march=native if building for a single machine
+ * CFLAGS="*-march=native*" ./configure # Use -march=native if building for a single machine
  * make
 
 #### Architecture-specific notes:
