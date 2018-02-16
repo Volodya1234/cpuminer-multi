@@ -1,7 +1,7 @@
 CPUMiner-Multi
 ==============
 
-This is a multi-threaded CPU miner, fork of [LucasJones](//github.com/lucasjones)' cpuminer-multi.
+This is a multi-threaded CPU miner.
 
 #### Table of contents
 
@@ -31,6 +31,9 @@ Download
 
 Build
 =====
+
+#### Basic dependencies for Centos 7:
+ * yum install git automake gcc make curl-devel screen -y
 
 #### Basic *nix build instructions enable AES:
  * ./autogen.sh	# only needed if building from git repo
