@@ -32,10 +32,16 @@ Download
 Build
 =====
 
-#### Basic *nix build instructions:
+#### Basic *nix build instructions enable AES:
  * ./autogen.sh	# only needed if building from git repo
  * Optimal GCC flags are built in - you only need to use -march=native if you want it
  * CFLAGS="*-march=native*" ./configure # Use -march=native if building for a single machine
+ * make
+
+#### Basic *nix build instructions disable AES:
+ * ./autogen.sh	# only needed if building from git repo
+ * Optimal GCC flags are built in - you only need to use -march=native if you want it
+ * CFLAGS="*-march=native*" ./configure --disable-aes-ni # Use -march=native if building for a single machine
  * make
 
 #### Architecture-specific notes:
@@ -59,8 +65,7 @@ When the --proxy option is not used, the program honors the http_proxy and all_p
 Donations
 =========
 Donations for the work done in this fork are accepted at
-* XMR: `46sSETXrZGT8bupxdc2MAbLe3PMV9nJTRTE5uaFErXFz6ymyzVdH86KDb9TNoG4ny5QLELfopynWeBSMoT1M2Ga8RBkDqTH`
-* BTC: `1WoLFumNUvjCgaCyjFzvFrbGfDddYrKNR`
+* BTC: `18PE7KYKDrEEi6a8dyfFjBrhjyBUe9qQUg`
 
 License
 =======
