@@ -11,7 +11,6 @@ This is a multi-threaded CPU miner, fork of [LucasJones](//github.com/lucasjones
 * [Build](#build)
 * [Usage instructions](#usage-instructions)
 * [Donations](#donations)
-* [Credits](#credits)
 * [License](#license)
 
 Algorithms
