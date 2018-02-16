@@ -64,12 +64,6 @@ Donations for the work done in this fork are accepted at
 * XMR: `46sSETXrZGT8bupxdc2MAbLe3PMV9nJTRTE5uaFErXFz6ymyzVdH86KDb9TNoG4ny5QLELfopynWeBSMoT1M2Ga8RBkDqTH`
 * BTC: `1WoLFumNUvjCgaCyjFzvFrbGfDddYrKNR`
 
-Credits
-=======
-This faster CPUMiner-multi was forked from LucasJones', and has been developed by Wolf.
-Special thanks to Intel for helping me with the usage of the AESKEYGENASSIST instruction, which I used to replace the calls to the slow, unoptimized oaes_lib.
-Special thanks also to dga for his code with that loop - since it runs over 500,000 times per hash, it's extremely important.
-
 License
 =======
 GPLv2.  See COPYING for details.
